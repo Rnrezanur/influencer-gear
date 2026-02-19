@@ -40,6 +40,18 @@ body{
     font-weight: 500;
 }
 
+
+.icon{
+  width: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
 .hero{
     display: flex;
     align-items: center;
