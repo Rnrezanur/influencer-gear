@@ -13,6 +13,7 @@ body{
 .container{
     width: 85%;
     margin: auto;
+    
 }
 
 .navbar {
@@ -69,6 +70,7 @@ body{
   justify-content: space-between;
   padding: 40px 0;
   opacity: 0.7;
+  
 }
 
 .section-title {
@@ -130,4 +132,12 @@ footer {
   color: white;
   text-align: center;
   padding: 40px 0;
+}
+
+.btn2{
+  background: #E02C6D;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
 }
