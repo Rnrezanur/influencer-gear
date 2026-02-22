@@ -17,9 +17,12 @@
 
     <!--  NAVBAR  -->
 
-    <header class="navbar">
-        <div class="container nav-container">
-            <h2 class="logo">Influencer Products</h2>
+ <header class="navbar">
+    <div class="container nav-container">
+
+        <h2 class="logo">Influencer Products</h2>
+
+        <div class="nav-right">
 
             <nav>
                 <ul class="nav-links">
@@ -27,25 +30,24 @@
                     <li><a href="#">Products</a></li>
                     <li><a href="#">Sign Up</a></li>
                     <li><a href="#">Log In</a></li>
-                    <li class="search-container">
-
-                        <!-- Hidden checkbox -->
-                        <input type="checkbox" id="search-toggle">
-
-                        <!-- Search Icon (label) -->
-                        <label for="search-toggle">
-                            <img src="logos/search.png" class="icon" alt="search">
-                        </label>
-
-                        <!-- Search Input -->
-                        <input type="text" class="search-box" placeholder="Search...">
-
-                    </li>
-                    <li><img src="logos/cart.svg" class="icon" alt="cart"></li>
                 </ul>
             </nav>
+
+            <div class="right-icons">
+                <div class="search-container">
+                    <input type="checkbox" id="search-toggle">
+                    <label for="search-toggle">
+                        <img src="logos/search.png" class="icon">
+                    </label>
+                    <input type="text" class="search-box" placeholder="Search...">
+                </div>
+
+                <img src="logos/cart.svg" class="icon" alt="cart">
+            </div>
+
         </div>
-    </header>
+    </div>
+</header>
 
     <!--  HERO  -->
 
@@ -70,14 +72,16 @@
 
     <!--  BRANDS  -->
 
-    <section class="brands container">
-        <img src="logos/Alibaba.svg" alt="">
-        <img src="logos/Amazon.svg" alt="">
-        <img src="logos/Daraz.pk Logo.svg" alt="">
-        <img src="logos/Ebay.svg" alt="">
-        <img src="logos/Rakuten.svg" alt="">
-        <img src="logos/Walmart.svg" alt="">
-        <img src="logos/Target.svg" alt="">
+    <section class="brands">
+        <div class="brands-wrapper brands-container">
+            <img src="logos/Alibaba.svg" alt="">
+            <img src="logos/Amazon.svg" alt="">
+            <img src="logos/Daraz.pk Logo.svg" alt="">
+            <img src="logos/Ebay.svg" alt="">
+            <img src="logos/Rakuten.svg" alt="">
+            <img src="logos/Walmart.svg" alt="">
+            <img src="logos/Target.svg" alt="">
+        </div>
     </section>
 
     <!--  PRODUCTS  -->
@@ -135,9 +139,9 @@
                 <p class="desc">Worldwide shipping available<br>Buyers protection possible!</p>
             </div>
         </div>
-                    <div class="see-more-container">
-                <button class="btn3">See More →</button>
-            </div>
+        <div class="see-more-container">
+            <button class="btn3">See More →</button>
+        </div>
     </section>
 
     <!--  FEATURED  -->
